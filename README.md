@@ -33,13 +33,6 @@
 - 애플리케이션에 CRUD 기능 추가
 - AWS와 Docker를 이용한 애플리케이션 배포
 
-&nbsp;
-
-#### 도서 소개
-
-<img src="//wikibook.co.kr/images/images/springboot3-react_Detail.jpg" class="book-preview-img">
-
-
 ---
  
  ## 구입처
