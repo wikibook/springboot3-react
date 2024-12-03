@@ -1,174 +1,50 @@
-# Full-Stack-Development-with-Spring-Boot-3-and-React-Fourth-Edition
-This is the code repository for [Full Stack Development with Spring Boot 3 and React - Fourth Edition](https://www.packtpub.com/product/full-stack-development-with-spring-boot-3-and-react-fourth-edition/9781805122463), published by Packt.
+
+![cover](cover.jpg)
+
+# 실전! 스프링 부트 3 & 리액트로 시작하는 모던 웹 애플리케이션 개발
+### 스프링 부트 3와 리액트를 활용한 실습 중심의 풀스택 웹 애플리케이션 개발
+
+- **주하 힌쿨라** 지음 | **변영인** 옮김
+- ISBN: 9791158395315
+- 판형: 188\*240\*17mm
+- 30,000원 | 2024년 12월 12일 발행 | 404쪽
+- [책 홈페이지](https://wikibook.co.kr/springboot3-react/)
+- [도서 미리보기](http://www.yes24.com/Product/Viewer/Preview/139860417)
+- [도서 관련 문의](https://wikibook.co.kr/support/contact/)
+
+---
+
+**스프링 부트와 리액트의 풍부하고 다양한 도구들을 활용해 최신 풀스택 애플리케이션 개발 비법을 배워보자!**
+
+이 책은 풀스택 개발자로 전환하고자 하는 자바 개발자나 새 프런트엔드 프레임워크를 배우고 싶은 사람을 위한 간결한 리액트 입문서다. 이 책은 세 부분으로 되어 있으며, 스프링 부트 백엔드, 리액트 프런트엔드를 만들고 이를 함께 배포하는 과정을 다룬다. 
+
+이번 개정판은 스프링 부트 3에 맞춰 업데이트되었으며, 보안과 테스트에 관한 내용을 좀 더 자세히 다루고 있다. 그리고 최근 인기가 높은 타입스크립트를 활용한 리액트 개발에 관한 내용이 추가됐다. REST API 생성, 애플리케이션 테스트, 보안 및 배포에 필요한 요소들을 알아보고 커스텀 훅, 서드파티 컴포넌트, MUI에 대해서도 배울 수 있다. 
+
+이 책을 통해 최신 도구와 최근 모범 사례를 통해 풀스택 애플리케이션 개발 능력을 기를 수 있을 것이다.
+ 
+**★ 이 책에서 다루는 내용 ★**
+
+- 스프링 데이터 REST로 빠르고 RESTful한 웹서비스 개발
+- ORM, JPA, 하이버네이트 등을 이용한 데이터베이스 생성 및 관리
+- 단위 테스트와 스프링 시큐리티를 이용한 JWT
+- 리액트 훅, 프롭, 상태 등을 이용하여 프런트엔드 개발
+- 머티리얼 UI 컴포넌트 라이브러리로 프런트엔드 커스터마이징
+- fetch API, Axios, 리액트 쿼리를 통한 네트워킹
+- 애플리케이션에 CRUD 기능 추가
+- AWS와 Docker를 이용한 애플리케이션 배포
+
+&nbsp;
+
+#### 도서 소개
+
+<img src="//wikibook.co.kr/images/images/springboot3-react_Detail.jpg" class="book-preview-img">
 
 
-**Build modern web applications using the power of Java, React, and TypeScript**
-
-The author of this book is -[Juha Hinkula](https://www.linkedin.com/in/juha-hinkula-6743322?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app)
-## Errata
-[Errata](errata.md): Typos, tool user interface changes, or mistakes in code that would cause an error.
-
-
-## About the book
-
-If you’re an existing Java developer who wants to go full stack or pick up another frontend framework, this book is your concise introduction to React. In this three-part build-along, you’ll create a robust Spring Boot backend, a React frontend, and then deploy them together.
-This new edition is updated to Spring Boot 3 and includes expanded content on security and testing. For the first time ever, it also covers React development with the in-demand TypeScript.
-You’ll explore the elements that go into creating a REST API and testing, securing, and deploying your applications. You’ll learn about custom Hooks, third-party components, and MUI.
-By the end of this book, you'll be able to build a full stack application using the latest tools and modern best practices.
-
-
-## Key Takeaways
-* Make fast and RESTful web services powered by Spring Data REST
-* Create and manage databases using ORM, JPA, Hibernate, and more
-* Explore the use of unit tests and JWTs with Spring Security
-* Employ React Hooks, props, states, and more to create your frontend
-* Harness the Material UI component library to customize your frontend
-* Use the fetch API, Axios, and React Query for networking
-* Add CRUD functionality to your apps
-* Deploy your apps using AWS and Docker
-
-
-## What's New 
-This fourth edition has been updated to Spring Boot 3. Here are the biggest changes: 
-* A new chapter introducing TypeScript, and TypeScript code throughout the book 
-* More modern tooling (Maven -> Gradle, create-react-app -> Vite) 
-* Expanded content on Spring Security and testing with Vitest 
-* New content on fetching data with the React Query library  
-* Backend deployment on AWS Elastic Beanstalk 
-* Frontend deployment on Netlify 
-
-## Outline and Chapter Summary
-If you’re an existing Java developer who wants to go full stack or pick up another frontend framework, this book is your concise introduction to React. In this three-part build-along, you’ll create a robust Spring Boot backend, a React frontend, and then deploy them together.
-This new edition is updated to Spring Boot 3 and includes expanded content on security and testing. For the first time ever, it also covers React development with the in-demand TypeScript.
-You’ll explore the elements that go into creating a REST API and testing, securing, and deploying your applications. You’ll learn about custom Hooks, third-party components, and MUI.
-By the end of this book, you’ll be able to build a full stack application using the latest tools and modern best practices. 
-
-
-1. Chapter 1, [Setting Up the Environment and Tools – Backend](https://github.com/PacktPublishing/Full-Stack-Development-with-Spring-Boot-3-and-React-Fourth-Edition/tree/main/Chapter01)
-2. Chapter 2, [Understanding Dependency Injection](https://github.com/PacktPublishing/Full-Stack-Development-with-Spring-Boot-3-and-React-Fourth-Edition/tree/main/Chapter02)
-3. Chapter 3, [Using JPA to Create and Access a Database](https://github.com/PacktPublishing/Full-Stack-Development-with-Spring-Boot-3-and-React-Fourth-Edition/tree/main/Chapter03)
-4. Chapter 4, [Creating a RESTful Web Service with Spring Boot](https://github.com/PacktPublishing/Full-Stack-Development-with-Spring-Boot-3-and-React-Fourth-Edition/tree/main/Chapter04)
-5. Chapter 5, [Securing Your Backend](https://github.com/PacktPublishing/Full-Stack-Development-with-Spring-Boot-3-and-React-Fourth-Edition/tree/main/Chapter05)
-6. Chapter 6, [Testing Your Backend](https://github.com/PacktPublishing/Full-Stack-Development-with-Spring-Boot-3-and-React-Fourth-Edition/tree/main/Chapter06)
-7. Chapter 7, [Setting Up the Environment and Tools – Frontend](https://github.com/PacktPublishing/Full-Stack-Development-with-Spring-Boot-3-and-React-Fourth-Edition/tree/main/Chapter07)
-8. Chapter 8, [Getting Started with React](https://github.com/PacktPublishing/Full-Stack-Development-with-Spring-Boot-3-and-React-Fourth-Edition/tree/main/Chapter08)
-9. Chapter 9, [Introduction to TypeScript](https://github.com/PacktPublishing/Full-Stack-Development-with-Spring-Boot-3-and-React-Fourth-Edition/tree/main/Chapter09)
-10. Chapter 10, [Consuming the REST API with React](https://github.com/PacktPublishing/Full-Stack-Development-with-Spring-Boot-3-and-React-Fourth-Edition/tree/main/Chapter10)
-11. Chapter 11, [Useful Third-Party Components for React](https://github.com/PacktPublishing/Full-Stack-Development-with-Spring-Boot-3-and-React-Fourth-Edition/tree/main/Chapter11)
-12. Chapter 12, [Setting Up the Frontend for Our Spring Boot RESTful Web Service](https://github.com/PacktPublishing/Full-Stack-Development-with-Spring-Boot-3-and-React-Fourth-Edition/tree/main/Chapter12)
-13. Chapter 13, [Adding CRUD Functionalities](https://github.com/PacktPublishing/Full-Stack-Development-with-Spring-Boot-3-and-React-Fourth-Edition/tree/main/Chapter13)
-14. Chapter 14, [Styling the Frontend with MUI](https://github.com/PacktPublishing/Full-Stack-Development-with-Spring-Boot-3-and-React-Fourth-Edition/tree/main/Chapter14)
-15. Chapter 15, [Testing React Apps](https://github.com/PacktPublishing/Full-Stack-Development-with-Spring-Boot-3-and-React-Fourth-Edition/tree/main/Chapter15)
-16. Chapter 16, [Securing Your Application](https://github.com/PacktPublishing/Full-Stack-Development-with-Spring-Boot-3-and-React-Fourth-Edition/tree/main/Chapter16)
-17. Chapter 17, Deploying Your Application
-
-
-## Part I: Backend Programming with Spring Boot
-### Chapter 01, Setting Up the Environment and Tools – Backend
-Chapter 1, _Setting Up the Environment and Tools – Backend_, explains how to install the software needed in this book for backend development and how to create your first Spring Boot application.
-
-### Chapter 02, Understanding Dependency Injection
-Chapter 2, _Understanding Dependency Injection_, explains the basics of dependency injection and how it is achieved in Spring Boot. 
-
-### Chapter 03, Using JPA to Create and Access a Database
-Chapter 3, _Using JPA to Create and Access a Database_, introduces JPA and explains how to create and access databases with Spring Boot.
-
-### Chapter 04, Creating a RESTful Web Service with Spring Boot
-Chapter 4, _Creating a RESTful Web Service with Spring Boot_, explains how to create RESTful web services using Spring Data REST.
-
-### Chapter 05, Securing Your Backend
-Chapter 5, _Securing Your Backend_, explains how to secure your backend using Spring Security and JWTs.
-
-### Chapter 06, Testing Your Backend
-Chapter 6, _Testing Your Backend_, covers testing in Spring Boot. We will create a few unit and integration tests for our backend and learn about test-driven development.
-
-
-
-## Part II: Frontend Programming with React
-### Chapter 07, Setting Up the Environment and Tools – Frontend
-Chapter 7, _Setting Up the Environment and Tools_ – Frontend, explains how to install the software needed in this book for frontend development.
-
-### Chapter 08, Getting Started with React
-Chapter 8, _Getting Started with React_, introduces the basics of the React library.
-
-### Chapter 09, Introduction to TypeScript
-Chapter 9, _Introduction to TypeScript_, covers the basics of TypeScript and how to use it to create React apps.
-
-### Chapter 10, Consuming the REST API with React
-Chapter 10, _Consuming the REST API with React_, shows how to use REST APIs with React using the Fetch API.
-
-### Chapter 11, Useful Third-Party Components for React
-Chapter 11, _Useful Third-Party Components for React_, demonstrates some useful components that we’ll use in our frontend development. 
-
-
-
-## Part III: Full Stack Development
-### Chapter 12, Setting Up the Frontend for Our Spring Boot RESTful Web Service
-Chapter 12, _Setting Up the Frontend for Our Spring Boot RESTful Web Service_, explains how to set up the React app and Spring Boot backend for frontend development.
-
-### Chapter 13, Adding CRUD Functionalities
-Chapter 13, _Adding CRUD Functionalities_, shows how to implement CRUD functionalities to the React frontend.
-
-### Chapter 14, Styling the Frontend with MUI
-Chapter 14, _Styling the Frontend with MUI_, shows how to polish the user interface using the React MUI component library.
-
-### Chapter 15, Testing React Apps
-Chapter 15, _Testing Your Frontend_, explains the basics of React frontend testing.
-
-
-### Chapter 16, Securing Your Application
-Chapter 16, _Securing Your Application_, explains how to secure the frontend using JWTs.
-
-
-### Chapter 17, Deploying Your Application
-Chapter 17, _Deploying Your Application_, demonstrates how to deploy an application with AWS and Netlify, and how to use Docker containers.
-
-
-
-
-> If you feel this book is for you, get your [copy](https://www.amazon.com/Full-Stack-Development-Spring-React-ebook/dp/B0CGM5LNWN/ref=sr_1_1?crid=10CRUCBS8PS5V&keywords=Full+Stack+Development+with+Spring+Boot+3+and+React&qid=1698642246&s=books&sprefix=full+stack+development+with+spring+boot+3+and+react%2Cstripbooks-intl-ship%2C257&sr=1-1) today! <img alt="Coding" height="15" width="35"  src="https://media.tenor.com/ex_HDD_k5P8AAAAi/habbo-habbohotel.gif">
-
-
-With the following software and hardware list you can run all code files present in the book.
-
-## Software and hardware list
-
-| Software required    | Link to the software    | Hardware specifications    | OS required    |
-|:---:  |:---:  |:---:  |:---:  |
-| Eclipse (latest version)  | [https://www.eclipse.org/](https://www.eclipse.org/) | Common | Windows, MacOS, Linux  |
-| VS Code (latest version)  | [https://code.visualstudio.com/](https://code.visualstudio.com/) | Common | Windows, MacOS, Linux   |
-|   MariaDB version == 10  | [https://mariadb.org/](https://mariadb.org/) | Common  | Windows, MacOS, Linux |
-| Docker (latest version) | [https://www.docker.com/get-started/](https://www.docker.com/get-started/) | Common  | Windows, MacOS, Linux |
-| Node.js (latest LTS version)  | [https://nodejs.org/en](https://nodejs.org/en) | Common | Windows, MacOS, Linux  |
-
-## Detailed installation steps (software-wise)
-Installation instructions:
-1. [https://www.eclipse.org/downloads/packages/installer](https://www.eclipse.org/downloads/packages/installer)
-2. [https://code.visualstudio.com/docs/setup/setup-overview](https://code.visualstudio.com/docs/setup/setup-overview)
-3. [https://mariadb.com/kb/en/getting-installing-and-upgrading-mariadb/](https://mariadb.com/kb/en/getting-installing-and-upgrading-mariadb/)
-4. [https://docs.docker.com/engine/install/](https://docs.docker.com/engine/install)
-5. [https://nodejs.org/en/download](https://nodejs.org/en/download)
-
-## Know more on the Discord server <img alt="Coding" height="25" width="32"  src="https://cliply.co/wp-content/uploads/2021/08/372108630_DISCORD_LOGO_400.gif">
-You can get more engaged on the Discord server for more latest updates and discussions in the community at [Discord](https://packt.link/FullStackSpringBootReact4e)
-
-## Download a free PDF <img alt="Coding" height="25" width="40" src="https://emergency.com.au/wp-content/uploads/2021/03/free.gif">
-
-_If you have already purchased a print or Kindle version of this book, you can get a DRM-free PDF version at no cost. Simply click on the link to claim your free PDF._
-[Free-Ebook](https://packt.link/free-ebook/9781805122463) <img alt="Coding" height="15" width="35"  src="https://media.tenor.com/ex_HDD_k5P8AAAAi/habbo-habbohotel.gif">
-
-We also provide a PDF file that has color images of the screenshots/diagrams used in this book at [GraphicBundle](https://packt.link/gbp/9781805122463) <img alt="Coding" height="15" width="35"  src="https://media.tenor.com/ex_HDD_k5P8AAAAi/habbo-habbohotel.gif">
-
-
-## Get to know the Author
-_Juha Hinkula_ is a software development lecturer at Haaga-Helia University of Applied Sciences in Finland. He received an MSc degree in Computer Science from the University of Helsinki and has over 17 years of industry experience in software development. Over the past few years, he has focused on modern full stack development. He is also a passionate mobile developer with Android-native technology, and he uses React Native.
-
-## Other Related Books
-- [Microservices with Spring Boot 3 and Spring Cloud - Third Edition](https://www.packtpub.com/product/microservices-with-spring-boot-3-and-spring-cloud-third-edition/9781805128694)
-- [React 18 Design Patterns and Best Practices, 4e](https://www.packtpub.com/product/react-18-design-patterns-and-best-practices-fourth-edition/9781803233109)
-
-
-
-
-## Errata
-
+---
+ 
+ ## 구입처
+ 
+ - [예스24](https://www.yes24.com/Product/Goods/139860417)
+ - [교보문고](https://product.kyobobook.co.kr/detail/S000214896424)
+ - [쿠팡](https://www.coupang.com/vp/products/8486147908?itemId=24559369927)
+ - [알라딘](https://product.kyobobook.co.kr/detail/S000214896424)
